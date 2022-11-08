@@ -1,0 +1,22 @@
+{
+  "name": "fc-desafio-ci-sonar",
+  "version": "1.0.0",
+  "description": "Pipeline de CI com SonarCloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elivando/fc-desafio-ci-sonar.git"
+  },
+  "author": "Eli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elivando/fc-desafio-ci-sonar/issues"
+  },
+  "homepage": "https://github.com/Elivando/fc-desafio-ci-sonar#readme",
+  "dependencies": {
+    "jest": "^29.3.0"
+  }
+}
