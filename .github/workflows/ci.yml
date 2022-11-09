@@ -34,8 +34,7 @@ jobs:
       with:
         ## used to debug sonarqube-scan-action
         args: >
-          -ls
-          -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
+          -Dsonar.javascript.lcov.reportPaths=./coverage/lcov.info
           -Dsonar.verbose=true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
