@@ -16,8 +16,7 @@
     "url": "https://github.com/Elivando/fc-desafio-ci-sonar/issues"
   },
   "homepage": "https://github.com/Elivando/fc-desafio-ci-sonar#readme",
-  
   "devDependencies": {
-    "jest-cli": "git://github.com/hankhsiao/jest.git"
+    "jest": "^29.3.0"
   }
 }
